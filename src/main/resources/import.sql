@@ -1,0 +1,2 @@
+INSERT INTO producto (id, sku, nombre, descripcion, precio, cantidadExistente, proveedor) VALUES ( nextval('ProductoId_seq'), '01-A', 'Galleta de Animalitos', 'Galleta en forma de animalitos', 1.1 ,100, 'La Moderna');
+INSERT INTO producto (id, sku, nombre, descripcion, precio, cantidadExistente, proveedor) VALUES ( nextval('ProductoId_seq'), '02-A', 'Sopa de Letras', 'Rica pasta en forma de letras', 5.5 ,100, 'La Moderna');
